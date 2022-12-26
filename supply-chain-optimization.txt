@@ -1,0 +1,25 @@
+Notebook com problema conceito
+Notebook com expansão do problema
+	- aumentar numero de fabricas
+	- aumentar numero de produtos
+	- incluir politicas de inventorio especifica de cada produto
+	- inlcuir modais de transporte
+
+Criar script python com modulos
+	- import data
+	- raw materials
+	- supply (produção)
+	- storage (armazenamento)
+	- distribution (venda)
+	- Objective (objetivo Maximizar,minimzar,função)
+
+Criar modelo de dados para banco de dados que atenda otimização
+	
+
+Objetivo: Criar um modelo de otimização plug-n-play para supply chain, porém com a capacidade
+de customização para atender caracteristicas especificas.
+
+Tipo de solução: Mixed-interger liner programming usando pyomo.
+
+Safety Stock Police > Transforma problema para não-linear e limita o tamanho dos problemas que
+podem ser resolvidos em tempo hábil
